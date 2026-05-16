@@ -241,6 +241,68 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 - [ ] Documentação sobre frameworks (Django, Flask, FastAPI)
 - [ ] Guias de deploy e CI/CD
 
+## 📸 Passo a Passo com Evidências
+
+Este guia visual mostra o fluxo completo de uso da aplicação para emissão de DAS MEI.
+
+### Passo 1: Executando a Aplicação
+
+A aplicação é iniciada através do comando `streamlit run app.py`:
+
+![Comando para Execução](Docs/Teste/Evidencia/Comando%20para%20a%20Execução-PY.jpg)
+
+*Imagem: Terminal mostrando a execução da aplicação Streamlit com sucesso.*
+
+### Passo 2: Interface Principal - Primeira Tela
+
+A aplicação abre com a interface do Facilitador de Orientação MEI:
+
+![Página Inicial da Aplicação](Docs/Teste/Evidencia/Redirecionamento%201-PY.jpg)
+
+*Imagem: Interface inicial da aplicação com botões de ação e instruções de segurança.*
+
+### Passo 3: Segundo Redirecionamento
+
+Confirmação de acesso ao sistema oficial:
+
+![Segundo Redirecionamento](Docs/Teste/Evidencia/Redirecionamento%202-PY.jpg)
+
+*Imagem: Dialog de confirmação para direcionamento seguro ao portal do governo.*
+
+### Passo 4: Portal Simples Nacional
+
+Acesso ao portal oficial da Receita Federal:
+
+![Página Simples Nacional](Docs/Teste/Evidencia/Pagina%20-%20Simples%20Nacional%20-%20PY.jpg)
+
+*Imagem: Portal do Simples Nacional da Receita Federal para seleção de serviços.*
+
+### Passo 5: Página de Emissão DAS
+
+Tela de emissão de DAS:
+
+![Página de Emissão DAS](Docs/Teste/Evidencia/Pagina%20Emisão%20DAS%20-%20PY.jpg)
+
+*Imagem: Interface de seleção e emissão de DAS para o período desejado.*
+
+### Passo 6: Geração do DAS
+
+Processamento e geração da guia:
+
+![Gerar DAS](Docs/Teste/Evidencia/Gerar%20DAS%20-%20PY.jpg)
+
+*Imagem: Tela de confirmação e geração do DAS em PDF.*
+
+### Passo 7: Requisição Finalizada
+
+Conclusão do processo:
+
+![Requisição](Docs/Teste/Evidencia/Requisição%20-%20PY.jpg)
+
+*Imagem: Confirmação de sucesso na emissão e download da guia.*
+
+---
+
 ## ❓ FAQ
 
 **P: Como instalo o projeto?**
@@ -250,10 +312,13 @@ R: Clone o repositório, crie um ambiente virtual e execute `pip install -r requ
 R: Sim! As documentações estão disponíveis sob licença MIT.
 
 **P: Como executo a aplicação Streamlit?**
-R: Execute `streamlit run app.py` no terminal.
+R: Execute `streamlit run app.py` no terminal. Veja o Passo 1 na seção de Evidências acima.
 
 **P: As documentações são adequadas para iniciantes?**
 R: Sim! Python_Fundamentos.md é especialmente feita para iniciantes com exemplos práticos.
+
+**P: A aplicação é segura para usar?**
+R: Sim! A aplicação foi desenvolvida com foco em segurança, incluindo alertas e direcionamentos para o site oficial da Receita Federal.
 
 ---
 
