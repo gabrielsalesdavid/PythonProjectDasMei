@@ -277,7 +277,15 @@ Acesso ao portal oficial da Receita Federal:
 
 *Imagem: Portal do Simples Nacional da Receita Federal para seleção de serviços.*
 
-### Passo 5: Página de Emissão DAS
+### Passo 5: Requisição
+
+Seleção e confirmação da requisição:
+
+![Requisição](Docs/Teste/Evidencia/Requisição%20-%20PY.jpg)
+
+*Imagem: Confirmação de sucesso na emissão e download da guia.*
+
+### Passo 6: Página de Emissão DAS
 
 Tela de emissão de DAS:
 
@@ -285,21 +293,13 @@ Tela de emissão de DAS:
 
 *Imagem: Interface de seleção e emissão de DAS para o período desejado.*
 
-### Passo 6: Geração do DAS
+### Passo 7: Geração do DAS
 
-Processamento e geração da guia:
+Processamento e geração final da guia:
 
 ![Gerar DAS](Docs/Teste/Evidencia/Gerar%20DAS%20-%20PY.jpg)
 
 *Imagem: Tela de confirmação e geração do DAS em PDF.*
-
-### Passo 7: Requisição Finalizada
-
-Conclusão do processo:
-
-![Requisição](Docs/Teste/Evidencia/Requisição%20-%20PY.jpg)
-
-*Imagem: Confirmação de sucesso na emissão e download da guia.*
 
 ---
 
